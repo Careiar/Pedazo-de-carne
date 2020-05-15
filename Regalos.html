@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Las historias de pedazo de carne y pancita de oso</title>
+			<link rel="icon" type="image/png" href="img/Bioinca.png">
+            <meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="css/estilos4.css">
+            <link rel="stylesheet" href="css/estilos5.css">
+			<link rel="stylesheet" href="css/estilos2.css">
+			<link rel="stylesheet" href="css/Bioinca.css">
+			<link rel="stylesheet" href="css/CC.css">
+
+			<h2 style="text-align:center">NUESTROS REGALOS <span style="color:red; font-size:130%">&hearts;</span></h2>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="REGALOS/Regalo1.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="REGALOS/Regalo2.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="REGALOS/Regalo3.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="REGALOS/Regalo4.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+  </div>
+   <div class="column">
+    <img src="REGALOS/Regalo5.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="REGALOS/Regalo6.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="REGALOS/Regalo7.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="REGALOS/Regalo8.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="REGALOS/Regalo9.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="REGALOS/Regalo10.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/XXTHhf14qqE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen onclick="myFunction(this);"></iframe>
+  </div>
+  <div class="">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/35Yh8Nfo5OM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+		</body>
